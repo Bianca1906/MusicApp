@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2025-12-06-11-12-39-1344x762.jpg" />
+    <None Remove="fundal.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2025-12-06-11-12-39-1344x762.jpg" />
+    <Resource Include="fundal.jpeg" />
+  </ItemGroup>
+
+</Project>
