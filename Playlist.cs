@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace POO_Proiect;
 public class Playlist
 {
-    public List<Song> Melodii { get; set; } = new List<Song>();
-   /* internal class Song
+    internal class Song
     {
-    }*/
+    }
 }
